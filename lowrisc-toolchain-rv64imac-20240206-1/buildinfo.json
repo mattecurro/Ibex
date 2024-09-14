@@ -1,0 +1,14 @@
+{
+  "toolchain_config": "lowrisc-toolchain-rv64imac",
+  "kind": "combined",
+  "version": "20240206-1",
+  "clang_version": "lowRISC clang version 16.0.2 (https://github.com/lowRISC/llvm-project.git d213f6b2e0bcc561930538ef47b3b5cc900b5b17)",
+  "clang_url": "https://github.com/lowRISC/llvm-project.git",
+  "clang_git": "d213f6b2e0bcc561930538ef47b3b5cc900b5b17",
+  "gcc_version": "riscv64-unknown-elf-gcc (crosstool-NG 1.26.0_rc1) 10.2.0",
+  "crosstool-ng_version": "This is crosstool-NG version 1.26.0_rc1",
+  "crosstool-ng_url": "https://github.com/crosstool-ng/crosstool-ng.git",
+  "crosstool-ng_git": "5a09578b6798f426b62d97b2ece1ba5e7b82990b",
+  "build_date": "Tue Feb  6 19:29:19 UTC 2024",
+  "build_host": "5d13f7537a22"
+}
