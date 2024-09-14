@@ -1,0 +1,1291 @@
+Configuration,small
+Matrix Dimension,6
+Cycles,128408
+Instructions Retired,91127
+Instructions Retired / Cycles,0.709668
+Fetch Wait / Instruction Retired,0
+Taken Conditional Branches / Conditional Branches,-nan
+,
+,
+,
+,
+,
+,
+Configuration,opentitan_4096
+Matrix Dimension,6
+Cycles,96633
+Instructions Retired,91127
+LSU Busy,1
+Fetch Wait,5505
+Loads,12250
+Stores,2122
+Jumps,469
+Conditional Branches,11732
+Taken Conditional Branches,4020
+Instructions Retired / Cycles,0.943022
+Fetch Wait / Instruction Retired,0.0604102
+Taken Conditional Branches / Conditional Branches,0.342653
+,
+,
+,
+,
+,
+,
+Configuration,opentitan_8192
+Matrix Dimension,6
+Cycles,95864
+Instructions Retired,91127
+LSU Busy,1
+Fetch Wait,4736
+Loads,12250
+Stores,2122
+Jumps,469
+Conditional Branches,11732
+Taken Conditional Branches,4020
+Instructions Retired / Cycles,0.950586
+Fetch Wait / Instruction Retired,0.0519714
+Taken Conditional Branches / Conditional Branches,0.342653
+,
+,
+,
+,
+,
+,
+Configuration,maxperf
+Matrix Dimension,6
+Cycles,94943
+Instructions Retired,91127
+LSU Busy,1
+Fetch Wait,3815
+Loads,12250
+Stores,2122
+Jumps,469
+Conditional Branches,11732
+Taken Conditional Branches,4020
+Instructions Retired / Cycles,0.959807
+Fetch Wait / Instruction Retired,0.0418647
+Taken Conditional Branches / Conditional Branches,0.342653
+,
+,
+,
+,
+,
+,
+Configuration,maxperf_with_cache_4096
+Matrix Dimension,6
+Cycles,96101
+Instructions Retired,91127
+LSU Busy,1
+Fetch Wait,4973
+Loads,12250
+Stores,2122
+Jumps,469
+Conditional Branches,11732
+Taken Conditional Branches,4020
+Instructions Retired / Cycles,0.948242
+Fetch Wait / Instruction Retired,0.0545722
+Taken Conditional Branches / Conditional Branches,0.342653
+,
+,
+,
+,
+,
+,
+Configuration,maxperf_with_cache_8192
+Matrix Dimension,6
+Cycles,95290
+Instructions Retired,91127
+LSU Busy,1
+Fetch Wait,4162
+Loads,12250
+Stores,2122
+Jumps,469
+Conditional Branches,11732
+Taken Conditional Branches,4020
+Instructions Retired / Cycles,0.956312
+Fetch Wait / Instruction Retired,0.0456725
+Taken Conditional Branches / Conditional Branches,0.342653
+,
+,
+,
+,
+,
+,
+Configuration,maxperf-pmp-bmfull
+Matrix Dimension,6
+Cycles,95617
+Instructions Retired,91127
+LSU Busy,1
+Fetch Wait,4489
+Loads,12250
+Stores,2122
+Jumps,469
+Conditional Branches,11732
+Taken Conditional Branches,4020
+Instructions Retired / Cycles,0.953042
+Fetch Wait / Instruction Retired,0.0492609
+Taken Conditional Branches / Conditional Branches,0.342653
+,
+,
+,
+,
+,
+,
+Configuration,maxperf-pmp-bmfull-icache
+Matrix Dimension,6
+Cycles,96633
+Instructions Retired,91127
+LSU Busy,1
+Fetch Wait,5505
+Loads,12250
+Stores,2122
+Jumps,469
+Conditional Branches,11732
+Taken Conditional Branches,4020
+Instructions Retired / Cycles,0.943022
+Fetch Wait / Instruction Retired,0.0604102
+Taken Conditional Branches / Conditional Branches,0.342653
+,
+,
+,
+,
+,
+,
+Configuration,small
+Matrix Dimension,42
+Cycles,21847161
+Instructions Retired,13438754
+Instructions Retired / Cycles,0.615126
+Fetch Wait / Instruction Retired,0
+Taken Conditional Branches / Conditional Branches,-nan
+,
+,
+,
+,
+,
+,
+Configuration,opentitan_4096
+Matrix Dimension,42
+Cycles,13781638
+Instructions Retired,13438754
+LSU Busy,1
+Fetch Wait,342883
+Loads,3122650
+Stores,88882
+Jumps,2273
+Conditional Branches,553292
+Taken Conditional Branches,339381
+Instructions Retired / Cycles,0.97512
+Fetch Wait / Instruction Retired,0.0255145
+Taken Conditional Branches / Conditional Branches,0.613385
+,
+,
+,
+,
+,
+,
+Configuration,opentitan_8192
+Matrix Dimension,42
+Cycles,13780694
+Instructions Retired,13438754
+LSU Busy,1
+Fetch Wait,341939
+Loads,3122650
+Stores,88882
+Jumps,2273
+Conditional Branches,553292
+Taken Conditional Branches,339381
+Instructions Retired / Cycles,0.975187
+Fetch Wait / Instruction Retired,0.0254442
+Taken Conditional Branches / Conditional Branches,0.613385
+,
+,
+,
+,
+,
+,
+Configuration,maxperf
+Matrix Dimension,42
+Cycles,13545381
+Instructions Retired,13438754
+LSU Busy,1
+Fetch Wait,106626
+Loads,3122650
+Stores,88882
+Jumps,2273
+Conditional Branches,553292
+Taken Conditional Branches,339381
+Instructions Retired / Cycles,0.992128
+Fetch Wait / Instruction Retired,0.00793422
+Taken Conditional Branches / Conditional Branches,0.613385
+,
+,
+,
+,
+,
+,
+Configuration,maxperf_with_cache_4096
+Matrix Dimension,42
+Cycles,13546746
+Instructions Retired,13438754
+LSU Busy,1
+Fetch Wait,107991
+Loads,3122650
+Stores,88882
+Jumps,2273
+Conditional Branches,553292
+Taken Conditional Branches,339381
+Instructions Retired / Cycles,0.992028
+Fetch Wait / Instruction Retired,0.00803579
+Taken Conditional Branches / Conditional Branches,0.613385
+,
+,
+,
+,
+,
+,
+Configuration,maxperf_with_cache_8192
+Matrix Dimension,42
+Cycles,13545717
+Instructions Retired,13438754
+LSU Busy,1
+Fetch Wait,106962
+Loads,3122650
+Stores,88882
+Jumps,2273
+Conditional Branches,553292
+Taken Conditional Branches,339381
+Instructions Retired / Cycles,0.992104
+Fetch Wait / Instruction Retired,0.00795922
+Taken Conditional Branches / Conditional Branches,0.613385
+,
+,
+,
+,
+,
+,
+Configuration,maxperf-pmp-bmfull
+Matrix Dimension,42
+Cycles,13780409
+Instructions Retired,13438754
+LSU Busy,1
+Fetch Wait,341654
+Loads,3122650
+Stores,88882
+Jumps,2273
+Conditional Branches,553292
+Taken Conditional Branches,339381
+Instructions Retired / Cycles,0.975207
+Fetch Wait / Instruction Retired,0.025423
+Taken Conditional Branches / Conditional Branches,0.613385
+,
+,
+,
+,
+,
+,
+Configuration,maxperf-pmp-bmfull-icache
+Matrix Dimension,42
+Cycles,13781638
+Instructions Retired,13438754
+LSU Busy,1
+Fetch Wait,342883
+Loads,3122650
+Stores,88882
+Jumps,2273
+Conditional Branches,553292
+Taken Conditional Branches,339381
+Instructions Retired / Cycles,0.97512
+Fetch Wait / Instruction Retired,0.0255145
+Taken Conditional Branches / Conditional Branches,0.613385
+,
+,
+,
+,
+,
+,
+Configuration,small
+Matrix Dimension,59
+Cycles,59188168
+Instructions Retired,36271283
+Instructions Retired / Cycles,0.612813
+Fetch Wait / Instruction Retired,0
+Taken Conditional Branches / Conditional Branches,-nan
+,
+,
+,
+,
+,
+,
+Configuration,opentitan_4096
+Matrix Dimension,59
+Cycles,37150092
+Instructions Retired,36271283
+LSU Busy,1
+Fetch Wait,878808
+Loads,8528820
+Stores,174902
+Jumps,3679
+Conditional Branches,1363892
+Taken Conditional Branches,873752
+Instructions Retired / Cycles,0.976344
+Fetch Wait / Instruction Retired,0.0242288
+Taken Conditional Branches / Conditional Branches,0.640631
+,
+,
+,
+,
+,
+,
+Configuration,opentitan_8192
+Matrix Dimension,59
+Cycles,37148991
+Instructions Retired,36271283
+LSU Busy,1
+Fetch Wait,877707
+Loads,8528820
+Stores,174902
+Jumps,3679
+Conditional Branches,1363892
+Taken Conditional Branches,873752
+Instructions Retired / Cycles,0.976373
+Fetch Wait / Instruction Retired,0.0241984
+Taken Conditional Branches / Conditional Branches,0.640631
+,
+,
+,
+,
+,
+,
+Configuration,maxperf
+Matrix Dimension,59
+Cycles,36474281
+Instructions Retired,36271283
+LSU Busy,1
+Fetch Wait,202997
+Loads,8528820
+Stores,174902
+Jumps,3679
+Conditional Branches,1363892
+Taken Conditional Branches,873752
+Instructions Retired / Cycles,0.994434
+Fetch Wait / Instruction Retired,0.00559663
+Taken Conditional Branches / Conditional Branches,0.640631
+,
+,
+,
+,
+,
+,
+Configuration,maxperf_with_cache_4096
+Matrix Dimension,59
+Cycles,36475861
+Instructions Retired,36271283
+LSU Busy,1
+Fetch Wait,204577
+Loads,8528820
+Stores,174902
+Jumps,3679
+Conditional Branches,1363892
+Taken Conditional Branches,873752
+Instructions Retired / Cycles,0.994391
+Fetch Wait / Instruction Retired,0.00564019
+Taken Conditional Branches / Conditional Branches,0.640631
+,
+,
+,
+,
+,
+,
+Configuration,maxperf_with_cache_8192
+Matrix Dimension,59
+Cycles,36474586
+Instructions Retired,36271283
+LSU Busy,1
+Fetch Wait,203302
+Loads,8528820
+Stores,174902
+Jumps,3679
+Conditional Branches,1363892
+Taken Conditional Branches,873752
+Instructions Retired / Cycles,0.994426
+Fetch Wait / Instruction Retired,0.00560504
+Taken Conditional Branches / Conditional Branches,0.640631
+,
+,
+,
+,
+,
+,
+Configuration,maxperf-pmp-bmfull
+Matrix Dimension,59
+Cycles,37148715
+Instructions Retired,36271283
+LSU Busy,1
+Fetch Wait,877431
+Loads,8528820
+Stores,174902
+Jumps,3679
+Conditional Branches,1363892
+Taken Conditional Branches,873752
+Instructions Retired / Cycles,0.976381
+Fetch Wait / Instruction Retired,0.0241908
+Taken Conditional Branches / Conditional Branches,0.640631
+,
+,
+,
+,
+,
+,
+Configuration,maxperf-pmp-bmfull-icache
+Matrix Dimension,59
+Cycles,37150092
+Instructions Retired,36271283
+LSU Busy,1
+Fetch Wait,878808
+Loads,8528820
+Stores,174902
+Jumps,3679
+Conditional Branches,1363892
+Taken Conditional Branches,873752
+Instructions Retired / Cycles,0.976344
+Fetch Wait / Instruction Retired,0.0242288
+Taken Conditional Branches / Conditional Branches,0.640631
+,
+,
+,
+,
+,
+,
+Configuration,small
+Matrix Dimension,72
+Cycles,106796591
+Instructions Retired,65733259
+Instructions Retired / Cycles,0.6155
+Fetch Wait / Instruction Retired,0
+Taken Conditional Branches / Conditional Branches,-nan
+,
+,
+,
+,
+,
+,
+Configuration,opentitan_4096
+Matrix Dimension,72
+Cycles,67139268
+Instructions Retired,65733259
+LSU Busy,1
+Fetch Wait,1406008
+Loads,15396850
+Stores,260182
+Jumps,5210
+Conditional Branches,2429552
+Taken Conditional Branches,1399425
+Instructions Retired / Cycles,0.979058
+Fetch Wait / Instruction Retired,0.0213896
+Taken Conditional Branches / Conditional Branches,0.576001
+,
+,
+,
+,
+,
+,
+Configuration,opentitan_8192
+Matrix Dimension,72
+Cycles,67138206
+Instructions Retired,65733259
+LSU Busy,1
+Fetch Wait,1404946
+Loads,15396850
+Stores,260182
+Jumps,5210
+Conditional Branches,2429552
+Taken Conditional Branches,1399425
+Instructions Retired / Cycles,0.979074
+Fetch Wait / Instruction Retired,0.0213734
+Taken Conditional Branches / Conditional Branches,0.576001
+,
+,
+,
+,
+,
+,
+Configuration,maxperf
+Matrix Dimension,72
+Cycles,65925460
+Instructions Retired,65733259
+LSU Busy,1
+Fetch Wait,192200
+Loads,15396850
+Stores,260182
+Jumps,5210
+Conditional Branches,2429552
+Taken Conditional Branches,1399425
+Instructions Retired / Cycles,0.997085
+Fetch Wait / Instruction Retired,0.00292394
+Taken Conditional Branches / Conditional Branches,0.576001
+,
+,
+,
+,
+,
+,
+Configuration,small
+Matrix Dimension,72
+Cycles,106796591
+Instructions Retired,65733259
+Instructions Retired / Cycles,0.6155
+Fetch Wait / Instruction Retired,0
+Taken Conditional Branches / Conditional Branches,-nan
+,
+,
+,
+,
+,
+,
+Configuration,opentitan_4096
+Matrix Dimension,72
+Cycles,67139268
+Instructions Retired,65733259
+LSU Busy,1
+Fetch Wait,1406008
+Loads,15396850
+Stores,260182
+Jumps,5210
+Conditional Branches,2429552
+Taken Conditional Branches,1399425
+Instructions Retired / Cycles,0.979058
+Fetch Wait / Instruction Retired,0.0213896
+Taken Conditional Branches / Conditional Branches,0.576001
+,
+,
+,
+,
+,
+,
+Configuration,opentitan_8192
+Matrix Dimension,72
+Cycles,67138206
+Instructions Retired,65733259
+LSU Busy,1
+Fetch Wait,1404946
+Loads,15396850
+Stores,260182
+Jumps,5210
+Conditional Branches,2429552
+Taken Conditional Branches,1399425
+Instructions Retired / Cycles,0.979074
+Fetch Wait / Instruction Retired,0.0213734
+Taken Conditional Branches / Conditional Branches,0.576001
+,
+,
+,
+,
+,
+,
+Configuration,maxperf
+Matrix Dimension,72
+Cycles,65925460
+Instructions Retired,65733259
+LSU Busy,1
+Fetch Wait,192200
+Loads,15396850
+Stores,260182
+Jumps,5210
+Conditional Branches,2429552
+Taken Conditional Branches,1399425
+Instructions Retired / Cycles,0.997085
+Fetch Wait / Instruction Retired,0.00292394
+Taken Conditional Branches / Conditional Branches,0.576001
+,
+,
+,
+,
+,
+,
+Configuration,maxperf_with_cache_4096
+Matrix Dimension,72
+Cycles,65926893
+Instructions Retired,65733259
+LSU Busy,1
+Fetch Wait,193633
+Loads,15396850
+Stores,260182
+Jumps,5210
+Conditional Branches,2429552
+Taken Conditional Branches,1399425
+Instructions Retired / Cycles,0.997063
+Fetch Wait / Instruction Retired,0.00294574
+Taken Conditional Branches / Conditional Branches,0.576001
+,
+,
+,
+,
+,
+,
+Configuration,maxperf_with_cache_8192
+Matrix Dimension,72
+Cycles,65925787
+Instructions Retired,65733259
+LSU Busy,1
+Fetch Wait,192527
+Loads,15396850
+Stores,260182
+Jumps,5210
+Conditional Branches,2429552
+Taken Conditional Branches,1399425
+Instructions Retired / Cycles,0.99708
+Fetch Wait / Instruction Retired,0.00292891
+Taken Conditional Branches / Conditional Branches,0.576001
+,
+,
+,
+,
+,
+,
+Configuration,maxperf-pmp-bmfull
+Matrix Dimension,72
+Cycles,67137895
+Instructions Retired,65733259
+LSU Busy,1
+Fetch Wait,1404635
+Loads,15396850
+Stores,260182
+Jumps,5210
+Conditional Branches,2429552
+Taken Conditional Branches,1399425
+Instructions Retired / Cycles,0.979078
+Fetch Wait / Instruction Retired,0.0213687
+Taken Conditional Branches / Conditional Branches,0.576001
+,
+,
+,
+,
+,
+,
+Configuration,maxperf-pmp-bmfull-icache
+Matrix Dimension,72
+Cycles,67139268
+Instructions Retired,65733259
+LSU Busy,1
+Fetch Wait,1406008
+Loads,15396850
+Stores,260182
+Jumps,5210
+Conditional Branches,2429552
+Taken Conditional Branches,1399425
+Instructions Retired / Cycles,0.979058
+Fetch Wait / Instruction Retired,0.0213896
+Taken Conditional Branches / Conditional Branches,0.576001
+,
+,
+,
+,
+,
+,
+Configuration,small
+Matrix Dimension,83
+Cycles,161483735
+Instructions Retired,98369751
+Instructions Retired / Cycles,0.609162
+Fetch Wait / Instruction Retired,0
+Taken Conditional Branches / Conditional Branches,-nan
+,
+,
+,
+,
+,
+,
+Configuration,opentitan_4096
+Matrix Dimension,83
+Cycles,100720554
+Instructions Retired,98369751
+LSU Busy,1
+Fetch Wait,2350802
+Loads,23491860
+Stores,345542
+Jumps,5140
+Conditional Branches,3302732
+Taken Conditional Branches,2344331
+Instructions Retired / Cycles,0.97666
+Fetch Wait / Instruction Retired,0.0238976
+Taken Conditional Branches / Conditional Branches,0.709816
+,
+,
+,
+,
+,
+,
+Configuration,opentitan_8192
+Matrix Dimension,83
+Cycles,100719491
+Instructions Retired,98369751
+LSU Busy,1
+Fetch Wait,2349739
+Loads,23491860
+Stores,345542
+Jumps,5140
+Conditional Branches,3302732
+Taken Conditional Branches,2344331
+Instructions Retired / Cycles,0.97667
+Fetch Wait / Instruction Retired,0.0238868
+Taken Conditional Branches / Conditional Branches,0.709816
+,
+,
+,
+,
+,
+,
+Configuration,maxperf
+Matrix Dimension,83
+Cycles,98764628
+Instructions Retired,98369751
+LSU Busy,1
+Fetch Wait,394876
+Loads,23491860
+Stores,345542
+Jumps,5140
+Conditional Branches,3302732
+Taken Conditional Branches,2344331
+Instructions Retired / Cycles,0.996002
+Fetch Wait / Instruction Retired,0.0040142
+Taken Conditional Branches / Conditional Branches,0.709816
+,
+,
+,
+,
+,
+,
+Configuration,maxperf_with_cache_4096
+Matrix Dimension,83
+Cycles,98766073
+Instructions Retired,98369751
+LSU Busy,1
+Fetch Wait,396321
+Loads,23491860
+Stores,345542
+Jumps,5140
+Conditional Branches,3302732
+Taken Conditional Branches,2344331
+Instructions Retired / Cycles,0.995987
+Fetch Wait / Instruction Retired,0.00402889
+Taken Conditional Branches / Conditional Branches,0.709816
+,
+,
+,
+,
+,
+,
+Configuration,maxperf_with_cache_8192
+Matrix Dimension,83
+Cycles,98764929
+Instructions Retired,98369751
+LSU Busy,1
+Fetch Wait,395177
+Loads,23491860
+Stores,345542
+Jumps,5140
+Conditional Branches,3302732
+Taken Conditional Branches,2344331
+Instructions Retired / Cycles,0.995999
+Fetch Wait / Instruction Retired,0.00401726
+Taken Conditional Branches / Conditional Branches,0.709816
+,
+,
+,
+,
+,
+,
+Configuration,maxperf-pmp-bmfull
+Matrix Dimension,83
+Cycles,100719223
+Instructions Retired,98369751
+LSU Busy,1
+Fetch Wait,2349471
+Loads,23491860
+Stores,345542
+Jumps,5140
+Conditional Branches,3302732
+Taken Conditional Branches,2344331
+Instructions Retired / Cycles,0.976673
+Fetch Wait / Instruction Retired,0.0238841
+Taken Conditional Branches / Conditional Branches,0.709816
+,
+,
+,
+,
+,
+,
+Configuration,maxperf-pmp-bmfull-icache
+Matrix Dimension,83
+Cycles,100720554
+Instructions Retired,98369751
+LSU Busy,1
+Fetch Wait,2350802
+Loads,23491860
+Stores,345542
+Jumps,5140
+Conditional Branches,3302732
+Taken Conditional Branches,2344331
+Instructions Retired / Cycles,0.97666
+Fetch Wait / Instruction Retired,0.0238976
+Taken Conditional Branches / Conditional Branches,0.709816
+Configuration,small
+Matrix Dimension,6
+Cycles,128408
+Instructions Retired,91127
+Instructions Retired / Cycles,0.709668
+Fetch Wait / Instruction Retired,0
+Taken Conditional Branches / Conditional Branches,-nan
+
+
+
+
+
+
+Configuration,opentitan_4096
+Matrix Dimension,6
+Cycles,96633
+Instructions Retired,91127
+LSU Busy,1
+Fetch Wait,5505
+Loads,12250
+Stores,2122
+Jumps,469
+Conditional Branches,11732
+Taken Conditional Branches,4020
+Instructions Retired / Cycles,0.943022
+Fetch Wait / Instruction Retired,0.0604102
+Taken Conditional Branches / Conditional Branches,0.342653
+
+
+
+
+
+
+Configuration,opentitan_8192
+Matrix Dimension,6
+Cycles,95864
+Instructions Retired,91127
+LSU Busy,1
+Fetch Wait,4736
+Loads,12250
+Stores,2122
+Jumps,469
+Conditional Branches,11732
+Taken Conditional Branches,4020
+Instructions Retired / Cycles,0.950586
+Fetch Wait / Instruction Retired,0.0519714
+Taken Conditional Branches / Conditional Branches,0.342653
+
+
+
+
+
+
+Configuration,maxperf
+Matrix Dimension,6
+Cycles,94943
+Instructions Retired,91127
+LSU Busy,1
+Fetch Wait,3815
+Loads,12250
+Stores,2122
+Jumps,469
+Conditional Branches,11732
+Taken Conditional Branches,4020
+Instructions Retired / Cycles,0.959807
+Fetch Wait / Instruction Retired,0.0418647
+Taken Conditional Branches / Conditional Branches,0.342653
+
+
+
+
+
+
+Configuration,maxperf_with_cache_4096
+Matrix Dimension,6
+Cycles,96101
+Instructions Retired,91127
+LSU Busy,1
+Fetch Wait,4973
+Loads,12250
+Stores,2122
+Jumps,469
+Conditional Branches,11732
+Taken Conditional Branches,4020
+Instructions Retired / Cycles,0.948242
+Fetch Wait / Instruction Retired,0.0545722
+Taken Conditional Branches / Conditional Branches,0.342653
+
+
+
+
+
+
+Configuration,maxperf_with_cache_8192
+Matrix Dimension,6
+Cycles,95290
+Instructions Retired,91127
+LSU Busy,1
+Fetch Wait,4162
+Loads,12250
+Stores,2122
+Jumps,469
+Conditional Branches,11732
+Taken Conditional Branches,4020
+Instructions Retired / Cycles,0.956312
+Fetch Wait / Instruction Retired,0.0456725
+Taken Conditional Branches / Conditional Branches,0.342653
+
+
+
+
+
+
+Configuration,maxperf-pmp-bmfull
+Matrix Dimension,6
+Cycles,95617
+Instructions Retired,91127
+LSU Busy,1
+Fetch Wait,4489
+Loads,12250
+Stores,2122
+Jumps,469
+Conditional Branches,11732
+Taken Conditional Branches,4020
+Instructions Retired / Cycles,0.953042
+Fetch Wait / Instruction Retired,0.0492609
+Taken Conditional Branches / Conditional Branches,0.342653
+
+
+
+
+
+
+Configuration,maxperf-pmp-bmfull-icache
+Matrix Dimension,6
+Cycles,96633
+Instructions Retired,91127
+LSU Busy,1
+Fetch Wait,5505
+Loads,12250
+Stores,2122
+Jumps,469
+Conditional Branches,11732
+Taken Conditional Branches,4020
+Instructions Retired / Cycles,0.943022
+Fetch Wait / Instruction Retired,0.0604102
+Taken Conditional Branches / Conditional Branches,0.342653
+
+
+
+
+
+
+Configuration,small
+Matrix Dimension,93
+Cycles,226064635
+Instructions Retired,137498041
+Instructions Retired / Cycles,0.608224
+Fetch Wait / Instruction Retired,0
+Taken Conditional Branches / Conditional Branches,-nan
+
+
+
+
+
+
+Configuration,opentitan_4096
+Matrix Dimension,93
+Cycles,140787452
+Instructions Retired,137498041
+LSU Busy,1
+Fetch Wait,3289410
+Loads,32953060
+Stores,433642
+Jumps,3890
+Conditional Branches,4401752
+Taken Conditional Branches,3284311
+Instructions Retired / Cycles,0.976636
+Fetch Wait / Instruction Retired,0.0239233
+Taken Conditional Branches / Conditional Branches,0.746137
+
+
+
+
+
+
+Configuration,opentitan_8192
+Matrix Dimension,93
+Cycles,140786496
+Instructions Retired,137498041
+LSU Busy,1
+Fetch Wait,3288454
+Loads,32953060
+Stores,433642
+Jumps,3890
+Conditional Branches,4401752
+Taken Conditional Branches,3284311
+Instructions Retired / Cycles,0.976642
+Fetch Wait / Instruction Retired,0.0239164
+Taken Conditional Branches / Conditional Branches,0.746137
+
+
+
+
+
+
+Configuration,maxperf
+Matrix Dimension,93
+Cycles,137988848
+Instructions Retired,137498041
+LSU Busy,1
+Fetch Wait,490806
+Loads,32953060
+Stores,433642
+Jumps,3890
+Conditional Branches,4401752
+Taken Conditional Branches,3284311
+Instructions Retired / Cycles,0.996443
+Fetch Wait / Instruction Retired,0.00356955
+Taken Conditional Branches / Conditional Branches,0.746137
+
+
+
+
+
+
+Configuration,maxperf_with_cache_4096
+Matrix Dimension,93
+Cycles,137990175
+Instructions Retired,137498041
+LSU Busy,1
+Fetch Wait,492133
+Loads,32953060
+Stores,433642
+Jumps,3890
+Conditional Branches,4401752
+Taken Conditional Branches,3284311
+Instructions Retired / Cycles,0.996434
+Fetch Wait / Instruction Retired,0.0035792
+Taken Conditional Branches / Conditional Branches,0.746137
+
+
+
+
+
+
+Configuration,maxperf_with_cache_8192
+Matrix Dimension,93
+Cycles,137989140
+Instructions Retired,137498041
+LSU Busy,1
+Fetch Wait,491098
+Loads,32953060
+Stores,433642
+Jumps,3890
+Conditional Branches,4401752
+Taken Conditional Branches,3284311
+Instructions Retired / Cycles,0.996441
+Fetch Wait / Instruction Retired,0.00357167
+Taken Conditional Branches / Conditional Branches,0.746137
+
+
+
+
+
+
+Configuration,maxperf-pmp-bmfull
+Matrix Dimension,93
+Cycles,140786243
+Instructions Retired,137498041
+LSU Busy,1
+Fetch Wait,3288201
+Loads,32953060
+Stores,433642
+Jumps,3890
+Conditional Branches,4401752
+Taken Conditional Branches,3284311
+Instructions Retired / Cycles,0.976644
+Fetch Wait / Instruction Retired,0.0239145
+Taken Conditional Branches / Conditional Branches,0.746137
+
+
+
+
+
+
+Configuration,maxperf-pmp-bmfull-icache
+Matrix Dimension,93
+Cycles,140787452
+Instructions Retired,137498041
+LSU Busy,1
+Fetch Wait,3289410
+Loads,32953060
+Stores,433642
+Jumps,3890
+Conditional Branches,4401752
+Taken Conditional Branches,3284311
+Instructions Retired / Cycles,0.976636
+Fetch Wait / Instruction Retired,0.0239233
+Taken Conditional Branches / Conditional Branches,0.746137
+
+
+
+
+
+
+Configuration,small
+Matrix Dimension,6
+Cycles,128408
+Instructions Retired,91127
+Instructions Retired / Cycles,0.709668
+Fetch Wait / Instruction Retired,0
+Taken Conditional Branches / Conditional Branches,-nan
+
+
+
+
+
+
+Configuration,opentitan_4096
+Matrix Dimension,6
+Cycles,96633
+Instructions Retired,91127
+LSU Busy,1
+Fetch Wait,5505
+Loads,12250
+Stores,2122
+Jumps,469
+Conditional Branches,11732
+Taken Conditional Branches,4020
+Instructions Retired / Cycles,0.943022
+Fetch Wait / Instruction Retired,0.0604102
+Taken Conditional Branches / Conditional Branches,0.342653
+
+
+
+
+
+
+Configuration,opentitan_8192
+Matrix Dimension,6
+Cycles,95864
+Instructions Retired,91127
+LSU Busy,1
+Fetch Wait,4736
+Loads,12250
+Stores,2122
+Jumps,469
+Conditional Branches,11732
+Taken Conditional Branches,4020
+Instructions Retired / Cycles,0.950586
+Fetch Wait / Instruction Retired,0.0519714
+Taken Conditional Branches / Conditional Branches,0.342653
+
+
+
+
+
+
+Configuration,maxperf
+Matrix Dimension,6
+Cycles,94943
+Instructions Retired,91127
+LSU Busy,1
+Fetch Wait,3815
+Loads,12250
+Stores,2122
+Jumps,469
+Conditional Branches,11732
+Taken Conditional Branches,4020
+Instructions Retired / Cycles,0.959807
+Fetch Wait / Instruction Retired,0.0418647
+Taken Conditional Branches / Conditional Branches,0.342653
+
+
+
+
+
+
+Configuration,maxperf_with_cache_4096
+Matrix Dimension,6
+Cycles,96101
+Instructions Retired,91127
+LSU Busy,1
+Fetch Wait,4973
+Loads,12250
+Stores,2122
+Jumps,469
+Conditional Branches,11732
+Taken Conditional Branches,4020
+Instructions Retired / Cycles,0.948242
+Fetch Wait / Instruction Retired,0.0545722
+Taken Conditional Branches / Conditional Branches,0.342653
+
+
+
+
+
+
+Configuration,maxperf_with_cache_8192
+Matrix Dimension,6
+Cycles,95290
+Instructions Retired,91127
+LSU Busy,1
+Fetch Wait,4162
+Loads,12250
+Stores,2122
+Jumps,469
+Conditional Branches,11732
+Taken Conditional Branches,4020
+Instructions Retired / Cycles,0.956312
+Fetch Wait / Instruction Retired,0.0456725
+Taken Conditional Branches / Conditional Branches,0.342653
+
+
+
+
+
+
+Configuration,maxperf-pmp-bmfull
+Matrix Dimension,6
+Cycles,95617
+Instructions Retired,91127
+LSU Busy,1
+Fetch Wait,4489
+Loads,12250
+Stores,2122
+Jumps,469
+Conditional Branches,11732
+Taken Conditional Branches,4020
+Instructions Retired / Cycles,0.953042
+Fetch Wait / Instruction Retired,0.0492609
+Taken Conditional Branches / Conditional Branches,0.342653
+
+
+
+
+
+
+Configuration,maxperf-pmp-bmfull-icache
+Matrix Dimension,6
+Cycles,96633
+Instructions Retired,91127
+LSU Busy,1
+Fetch Wait,5505
+Loads,12250
+Stores,2122
+Jumps,469
+Conditional Branches,11732
+Taken Conditional Branches,4020
+Instructions Retired / Cycles,0.943022
+Fetch Wait / Instruction Retired,0.0604102
+Taken Conditional Branches / Conditional Branches,0.342653
+
+
+
+
+
+
