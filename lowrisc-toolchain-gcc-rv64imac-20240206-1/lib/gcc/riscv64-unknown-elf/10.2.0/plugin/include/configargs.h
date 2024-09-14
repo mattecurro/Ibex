@@ -1,0 +1,7 @@
+/* Generated automatically. */
+static const char configuration_arguments[] = "/__w/lowrisc-toolchains/lowrisc-toolchains/build/gcc/.build/riscv64-unknown-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=riscv64-unknown-elf --prefix=/tools/riscv --exec_prefix=/tools/riscv --with-local-prefix=/tools/riscv/riscv64-unknown-elf --with-headers=/tools/riscv/riscv64-unknown-elf/include --with-newlib --enable-threads=no --disable-shared --with-arch=rv64imac --with-abi=lp64 --with-pkgversion='crosstool-NG 1.26.0_rc1' --with-bugurl=toolchains@lowrisc.org --enable-__cxa_atexit --disable-tm-clone-registry --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/__w/lowrisc-toolchains/lowrisc-toolchains/build/gcc/.build/riscv64-unknown-elf/buildtools --with-mpfr=/__w/lowrisc-toolchains/lowrisc-toolchains/build/gcc/.build/riscv64-unknown-elf/buildtools --with-mpc=/__w/lowrisc-toolchains/lowrisc-toolchains/build/gcc/.build/riscv64-unknown-elf/buildtools --with-isl=/__w/lowrisc-toolchains/lowrisc-toolchains/build/gcc/.build/riscv64-unknown-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --disable-multilib --enable-languages=c,c++";
+static const char thread_model[] = "single";
+
+static const struct {
+  const char *name, *value;
+} configure_default_options[] = { { "abi", "lp64" }, { "arch", "rv64imac" } };
