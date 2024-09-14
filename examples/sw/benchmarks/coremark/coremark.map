@@ -1,0 +1,697 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libm.a(libm_a-s_modf.o)
+                              /tmp/ccHWs9M2.o (modf)
+/home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libm.a(libm_a-s_fpclassify.o)
+                              /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libm.a(libm_a-s_modf.o) (__fpclassifyd)
+/home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(adddf3.o)
+                              /tmp/ccHWs9M2.o (__adddf3)
+/home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(divdf3.o)
+                              /tmp/ccsclQmN.o (__divdf3)
+/home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(eqdf2.o)
+                              /tmp/ccHWs9M2.o (__nedf2)
+/home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(gedf2.o)
+                              /tmp/ccsclQmN.o (__gtdf2)
+/home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(ledf2.o)
+                              /tmp/ccsclQmN.o (__ltdf2)
+/home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(muldf3.o)
+                              /tmp/ccHWs9M2.o (__muldf3)
+/home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(subdf3.o)
+                              /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libm.a(libm_a-s_modf.o) (__subdf3)
+/home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(fixdfsi.o)
+                              /tmp/ccHWs9M2.o (__fixdfsi)
+/home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(fixunsdfsi.o)
+                              /tmp/ccsclQmN.o (__fixunsdfsi)
+/home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(floatunsidf.o)
+                              /tmp/ccsclQmN.o (__floatunsidf)
+/home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(divsf3.o)
+                              /tmp/cci9QFLx.o (__divsf3)
+/home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(floatunsisf.o)
+                              /tmp/cci9QFLx.o (__floatunsisf)
+/home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(extendsfdf2.o)
+                              /tmp/cci9QFLx.o (__extendsfdf2)
+/home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(_clzsi2.o)
+                              /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(adddf3.o) (__clzsi2)
+/home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(_clz.o)
+                              /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(_clzsi2.o) (__clz_tab)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ram              0x0000000000100000 0x0000000000030000
+stack            0x0000000000130000 0x0000000000008000
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /tmp/ccTeeDTX.o
+LOAD /tmp/ccsclQmN.o
+LOAD /tmp/ccGiMiud.o
+LOAD /tmp/ccyhkGPf.o
+LOAD /tmp/ccCy1jht.o
+LOAD /tmp/cci9QFLx.o
+LOAD /tmp/ccdVonkR.o
+LOAD /tmp/ccHWs9M2.o
+LOAD /tmp/ccYCau96.o
+LOAD /tmp/cccxkXCq.o
+LOAD /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libm.a
+LOAD /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a
+                0x0000000000002000                _min_stack = 0x2000
+                0x0000000000008000                _stack_len = LENGTH (stack)
+                0x0000000000138000                _stack_start = (ORIGIN (stack) + LENGTH (stack))
+                0x0000000000100080                _entry_point = (_vectors_start + 0x80)
+                0x0000000000020008                tohost = 0x20008
+                0x0000000000138010                fromhost = (_stack_start + 0x10)
+
+.vectors        0x0000000000100000       0x84
+                0x0000000000100000                . = ALIGN (0x4)
+                0x0000000000100000                _vectors_start = .
+ *(.vectors)
+ .vectors       0x0000000000100000       0x84 /tmp/ccYCau96.o
+                0x0000000000100084                _vectors_end = .
+
+.text           0x0000000000100090     0xd82c
+                0x0000000000100090                . = ALIGN (0x4)
+ *(.text)
+ .text          0x0000000000100090     0x15b0 /tmp/ccTeeDTX.o
+                0x0000000000100090                calc_func
+                0x00000000001001d0                cmp_complex
+                0x00000000001003d0                cmp_idx
+                0x0000000000100430                copy_info
+                0x0000000000100450                core_bench_list
+                0x0000000000100cc0                core_list_init
+                0x0000000000101250                core_list_insert_new
+                0x00000000001012b0                core_list_remove
+                0x00000000001012e0                core_list_undo_remove
+                0x0000000000101300                core_list_find
+                0x0000000000101360                core_list_reverse
+                0x0000000000101410                core_list_mergesort
+ *fill*         0x0000000000101640        0x0 
+ .text          0x0000000000101640       0xb8 /tmp/ccsclQmN.o
+                0x0000000000101640                iterate
+ *fill*         0x00000000001016f8        0x8 
+ .text          0x0000000000101700     0x2da8 /tmp/ccGiMiud.o
+                0x0000000000101700                printmat
+                0x0000000000101980                matrix_test
+                0x00000000001030c0                core_bench_matrix
+                0x0000000000103100                core_init_matrix
+                0x0000000000103530                matrix_sum
+                0x00000000001039d0                matrix_mul_const
+                0x0000000000103b90                matrix_add_const
+                0x0000000000103df0                matrix_mul_vect
+                0x0000000000104010                matrix_mul_matrix
+                0x0000000000104290                matrix_mul_matrix_bitextract
+ *fill*         0x00000000001044a8        0x8 
+ .text          0x00000000001044b0      0x920 /tmp/ccyhkGPf.o
+                0x00000000001044b0                core_init_state
+                0x0000000000104770                core_state_transition
+                0x0000000000104a90                core_bench_state
+ *fill*         0x0000000000104dd0        0x0 
+ .text          0x0000000000104dd0      0xbfc /tmp/ccCy1jht.o
+                0x0000000000104dd0                get_seed_32
+                0x0000000000104e40                crcu8
+                0x0000000000104f80                crcu16
+                0x0000000000105210                crcu32
+                0x0000000000105730                crc16
+                0x00000000001059c0                check_data_types
+ *fill*         0x00000000001059cc        0x4 
+ .text          0x00000000001059d0      0x348 /tmp/cci9QFLx.o
+                0x00000000001059d0                barebones_clock
+                0x00000000001059e0                pcount_read
+                0x0000000000105a40                dump_pcounts
+                0x0000000000105ad0                start_time
+                0x0000000000105b10                stop_time
+                0x0000000000105b30                get_time
+                0x0000000000105b50                time_in_secs
+                0x0000000000105b80                portable_init
+                0x0000000000105bc0                portable_fini
+ *fill*         0x0000000000105d18        0x8 
+ .text          0x0000000000105d20     0x3878 /tmp/ccdVonkR.o
+                0x0000000000106740                printf
+ *fill*         0x0000000000109598        0x8 
+ .text          0x00000000001095a0      0xda0 /tmp/ccHWs9M2.o
+                0x000000000010a300                ecvt
+                0x000000000010a310                ecvtbuf
+                0x000000000010a320                fcvt
+                0x000000000010a330                fcvtbuf
+ .text          0x000000000010a340       0xd0 /tmp/ccYCau96.o
+                0x000000000010a3cc                _start
+ .text          0x000000000010a410      0xcb4 /tmp/cccxkXCq.o
+                0x000000000010a410                putchar
+                0x000000000010a420                puts
+                0x000000000010a4a0                puthex
+                0x000000000010a650                sim_halt
+                0x000000000010a660                pcount_reset
+                0x000000000010a760                get_mepc
+                0x000000000010a770                get_mcause
+                0x000000000010a780                get_mtval
+                0x000000000010a790                simple_exc_handler
+                0x000000000010adf0                timer_enable
+                0x000000000010aed0                timer_disable
+                0x000000000010aee0                timer_read
+                0x000000000010af70                timecmp_update
+                0x000000000010af90                get_elapsed_time
+                0x000000000010afa0                simple_timer_handler
+ .text          0x000000000010b0c4       0xda /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libm.a(libm_a-s_modf.o)
+                0x000000000010b0c4                modf
+ .text          0x000000000010b19e       0x42 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libm.a(libm_a-s_fpclassify.o)
+                0x000000000010b19e                __fpclassifyd
+ .text          0x000000000010b1e0      0x60a /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(adddf3.o)
+                0x000000000010b1e0                __adddf3
+ .text          0x000000000010b7ea      0x53e /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(divdf3.o)
+                0x000000000010b7ea                __divdf3
+ .text          0x000000000010bd28       0x6a /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(eqdf2.o)
+                0x000000000010bd28                __eqdf2
+                0x000000000010bd28                __nedf2
+ .text          0x000000000010bd92       0xa6 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(gedf2.o)
+                0x000000000010bd92                __gtdf2
+                0x000000000010bd92                __gedf2
+ .text          0x000000000010be38       0xa6 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(ledf2.o)
+                0x000000000010be38                __ltdf2
+                0x000000000010be38                __ledf2
+ .text          0x000000000010bede      0x440 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(muldf3.o)
+                0x000000000010bede                __muldf3
+ .text          0x000000000010c31e      0x618 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(subdf3.o)
+                0x000000000010c31e                __subdf3
+ .text          0x000000000010c936       0x64 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(fixdfsi.o)
+                0x000000000010c936                __fixdfsi
+ .text          0x000000000010c99a       0x60 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(fixunsdfsi.o)
+                0x000000000010c99a                __fixunsdfsi
+ .text          0x000000000010c9fa       0x4e /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(floatunsidf.o)
+                0x000000000010c9fa                __floatunsidf
+ .text          0x000000000010ca48      0x24e /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(divsf3.o)
+                0x000000000010ca48                __divsf3
+ .text          0x000000000010cc96       0x9a /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(floatunsisf.o)
+                0x000000000010cc96                __floatunsisf
+ .text          0x000000000010cd30       0x96 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(extendsfdf2.o)
+                0x000000000010cd30                __extendsfdf2
+ .text          0x000000000010cdc6       0x3c /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(_clzsi2.o)
+                0x000000000010cdc6                __clzsi2
+ .text          0x000000000010ce02        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(_clz.o)
+ *(.text.*)
+ *fill*         0x000000000010ce02        0xe 
+ .text.startup  0x000000000010ce10      0xaac /tmp/ccsclQmN.o
+                0x000000000010ce10                main
+
+.rodata         0x000000000010d8c0      0xa34
+                0x000000000010d8c0                . = ALIGN (0x4)
+ *(.srodata)
+ .srodata       0x000000000010d8c0        0x4 /tmp/cci9QFLx.o
+                0x000000000010d8c0                pcount_num
+ *(.srodata.*)
+ *fill*         0x000000000010d8c4        0x4 
+ .srodata.cst8  0x000000000010d8c8        0x8 /tmp/ccsclQmN.o
+ .srodata.cst8  0x000000000010d8d0        0x8 /tmp/cci9QFLx.o
+ .srodata.cst4  0x000000000010d8d8        0x4 /tmp/cci9QFLx.o
+ *fill*         0x000000000010d8dc        0x4 
+ .srodata.cst8  0x000000000010d8e0       0x10 /tmp/ccHWs9M2.o
+                                         0x18 (size before relaxing)
+ *(.rodata)
+ .rodata        0x000000000010d8f0       0x40 /tmp/ccyhkGPf.o
+ .rodata        0x000000000010d930       0x18 /tmp/ccCy1jht.o
+ .rodata        0x000000000010d948      0x204 /tmp/ccdVonkR.o
+ .rodata        0x000000000010db4c       0x3c /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(divdf3.o)
+ .rodata        0x000000000010db88       0x3c /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(muldf3.o)
+ .rodata        0x000000000010dbc4       0x3c /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(divsf3.o)
+ .rodata        0x000000000010dc00      0x100 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(_clz.o)
+                0x000000000010dc00                __clz_tab
+ *(.rodata.*)
+ .rodata.str1.4
+                0x000000000010dd00      0x376 /tmp/ccsclQmN.o
+                                        0x37a (size before relaxing)
+ *fill*         0x000000000010e076        0x2 
+ .rodata.str1.4
+                0x000000000010e078       0x30 /tmp/ccGiMiud.o
+                                         0x34 (size before relaxing)
+ .rodata.str1.4
+                0x000000000010e0a8       0xad /tmp/ccyhkGPf.o
+ *fill*         0x000000000010e155        0x3 
+ .rodata.str1.4
+                0x000000000010e158      0x100 /tmp/cci9QFLx.o
+                                        0x104 (size before relaxing)
+ .rodata.str1.4
+                0x000000000010e258       0x57 /tmp/ccdVonkR.o
+ *fill*         0x000000000010e2af        0x1 
+ .rodata.str1.4
+                0x000000000010e2b0       0x44 /tmp/cccxkXCq.o
+
+.rela.dyn       0x000000000010e2f4        0x0
+ .rela.text     0x000000000010e2f4        0x0 /tmp/ccTeeDTX.o
+
+.data           0x000000000010e2f4       0x44
+                0x000000000010e2f4                . = ALIGN (0x4)
+ *(.sdata)
+ .sdata         0x000000000010e2f4        0xc /tmp/cci9QFLx.o
+                0x000000000010e2f4                default_num_contexts
+                0x000000000010e2f8                seed4_volatile
+                0x000000000010e2fc                seed3_volatile
+ *(.sdata.*)
+ *(.data)
+ .data          0x000000000010e300        0x0 /tmp/ccTeeDTX.o
+ .data          0x000000000010e300        0xc /tmp/ccsclQmN.o
+                0x000000000010e300                mem_name
+ .data          0x000000000010e30c        0x0 /tmp/ccGiMiud.o
+ .data          0x000000000010e30c        0x0 /tmp/ccyhkGPf.o
+ .data          0x000000000010e30c        0x0 /tmp/ccCy1jht.o
+ .data          0x000000000010e30c       0x2c /tmp/cci9QFLx.o
+                0x000000000010e30c                pcount_names
+ .data          0x000000000010e338        0x0 /tmp/ccdVonkR.o
+ .data          0x000000000010e338        0x0 /tmp/ccHWs9M2.o
+ .data          0x000000000010e338        0x0 /tmp/ccYCau96.o
+ .data          0x000000000010e338        0x0 /tmp/cccxkXCq.o
+ .data          0x000000000010e338        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libm.a(libm_a-s_modf.o)
+ .data          0x000000000010e338        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libm.a(libm_a-s_fpclassify.o)
+ .data          0x000000000010e338        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(adddf3.o)
+ .data          0x000000000010e338        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(divdf3.o)
+ .data          0x000000000010e338        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(eqdf2.o)
+ .data          0x000000000010e338        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(gedf2.o)
+ .data          0x000000000010e338        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(ledf2.o)
+ .data          0x000000000010e338        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(muldf3.o)
+ .data          0x000000000010e338        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(subdf3.o)
+ .data          0x000000000010e338        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(fixdfsi.o)
+ .data          0x000000000010e338        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(fixunsdfsi.o)
+ .data          0x000000000010e338        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(floatunsidf.o)
+ .data          0x000000000010e338        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(divsf3.o)
+ .data          0x000000000010e338        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(floatunsisf.o)
+ .data          0x000000000010e338        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(extendsfdf2.o)
+ .data          0x000000000010e338        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(_clzsi2.o)
+ .data          0x000000000010e338        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(_clz.o)
+ *(.data.*)
+
+.bss            0x000000000010e338       0x78
+                0x000000000010e338                . = ALIGN (0x4)
+                0x000000000010e338                _bss_start = .
+ *(.sbss)
+ .sbss          0x000000000010e338       0x14 /tmp/cci9QFLx.o
+                0x000000000010e340                seed5_volatile
+                0x000000000010e344                seed2_volatile
+                0x000000000010e348                seed1_volatile
+ *fill*         0x000000000010e34c        0x4 
+ .sbss          0x000000000010e350       0x10 /tmp/cccxkXCq.o
+                0x000000000010e350                time_increment
+                0x000000000010e358                time_elapsed
+ *(.sbss.*)
+ *(.bss)
+ .bss           0x000000000010e360        0x0 /tmp/ccTeeDTX.o
+ .bss           0x000000000010e360        0x0 /tmp/ccsclQmN.o
+ .bss           0x000000000010e360        0x0 /tmp/ccGiMiud.o
+ .bss           0x000000000010e360        0x0 /tmp/ccyhkGPf.o
+ .bss           0x000000000010e360        0x0 /tmp/ccCy1jht.o
+ .bss           0x000000000010e360        0x0 /tmp/cci9QFLx.o
+ .bss           0x000000000010e360        0x0 /tmp/ccdVonkR.o
+ .bss           0x000000000010e360       0x50 /tmp/ccHWs9M2.o
+ .bss           0x000000000010e3b0        0x0 /tmp/ccYCau96.o
+ .bss           0x000000000010e3b0        0x0 /tmp/cccxkXCq.o
+ .bss           0x000000000010e3b0        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libm.a(libm_a-s_modf.o)
+ .bss           0x000000000010e3b0        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libm.a(libm_a-s_fpclassify.o)
+ .bss           0x000000000010e3b0        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(adddf3.o)
+ .bss           0x000000000010e3b0        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(divdf3.o)
+ .bss           0x000000000010e3b0        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(eqdf2.o)
+ .bss           0x000000000010e3b0        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(gedf2.o)
+ .bss           0x000000000010e3b0        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(ledf2.o)
+ .bss           0x000000000010e3b0        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(muldf3.o)
+ .bss           0x000000000010e3b0        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(subdf3.o)
+ .bss           0x000000000010e3b0        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(fixdfsi.o)
+ .bss           0x000000000010e3b0        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(fixunsdfsi.o)
+ .bss           0x000000000010e3b0        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(floatunsidf.o)
+ .bss           0x000000000010e3b0        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(divsf3.o)
+ .bss           0x000000000010e3b0        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(floatunsisf.o)
+ .bss           0x000000000010e3b0        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(extendsfdf2.o)
+ .bss           0x000000000010e3b0        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(_clzsi2.o)
+ .bss           0x000000000010e3b0        0x0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(_clz.o)
+ *(.bss.*)
+ *(COMMON)
+                0x000000000010e3b0                _bss_end = .
+
+.stack          0x0000000000130000     0x2000
+                0x0000000000130000                . = ALIGN (0x4)
+                0x0000000000132000                . = (. + _min_stack)
+ *fill*         0x0000000000130000     0x2000 
+                0x0000000000132000                . = ALIGN (0x4)
+                0x0000000000132000                stack = .
+                0x0000000000132000                _stack = .
+OUTPUT(/home/matteo/ibex/examples/sw/benchmarks/coremark/coremark.elf elf32-littleriscv)
+
+.debug_info     0x0000000000000000     0x8b56
+ .debug_info    0x0000000000000000     0x111f /tmp/ccTeeDTX.o
+ .debug_info    0x000000000000111f      0xba3 /tmp/ccsclQmN.o
+ .debug_info    0x0000000000001cc2      0xea9 /tmp/ccGiMiud.o
+ .debug_info    0x0000000000002b6b      0x56a /tmp/ccyhkGPf.o
+ .debug_info    0x00000000000030d5      0x566 /tmp/ccCy1jht.o
+ .debug_info    0x000000000000363b      0x756 /tmp/cci9QFLx.o
+ .debug_info    0x0000000000003d91      0xa79 /tmp/ccdVonkR.o
+ .debug_info    0x000000000000480a      0x6aa /tmp/ccHWs9M2.o
+ .debug_info    0x0000000000004eb4       0x22 /tmp/ccYCau96.o
+ .debug_info    0x0000000000004ed6      0x7ad /tmp/cccxkXCq.o
+ .debug_info    0x0000000000005683      0x24a /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libm.a(libm_a-s_modf.o)
+ .debug_info    0x00000000000058cd      0x140 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libm.a(libm_a-s_fpclassify.o)
+ .debug_info    0x0000000000005a0d      0x581 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(adddf3.o)
+ .debug_info    0x0000000000005f8e      0x72a /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(divdf3.o)
+ .debug_info    0x00000000000066b8      0x255 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(eqdf2.o)
+ .debug_info    0x000000000000690d      0x253 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(gedf2.o)
+ .debug_info    0x0000000000006b60      0x253 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(ledf2.o)
+ .debug_info    0x0000000000006db3      0x766 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(muldf3.o)
+ .debug_info    0x0000000000007519      0x581 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(subdf3.o)
+ .debug_info    0x0000000000007a9a      0x1e7 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(fixdfsi.o)
+ .debug_info    0x0000000000007c81      0x1d5 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(fixunsdfsi.o)
+ .debug_info    0x0000000000007e56      0x28e /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(floatunsidf.o)
+ .debug_info    0x00000000000080e4      0x3a3 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(divsf3.o)
+ .debug_info    0x0000000000008487      0x229 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(floatunsisf.o)
+ .debug_info    0x00000000000086b0      0x28b /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(extendsfdf2.o)
+ .debug_info    0x000000000000893b      0x144 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(_clzsi2.o)
+ .debug_info    0x0000000000008a7f       0xd7 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(_clz.o)
+
+.debug_abbrev   0x0000000000000000     0x2925
+ .debug_abbrev  0x0000000000000000      0x2cd /tmp/ccTeeDTX.o
+ .debug_abbrev  0x00000000000002cd      0x1f9 /tmp/ccsclQmN.o
+ .debug_abbrev  0x00000000000004c6      0x20c /tmp/ccGiMiud.o
+ .debug_abbrev  0x00000000000006d2      0x209 /tmp/ccyhkGPf.o
+ .debug_abbrev  0x00000000000008db      0x175 /tmp/ccCy1jht.o
+ .debug_abbrev  0x0000000000000a50      0x2cb /tmp/cci9QFLx.o
+ .debug_abbrev  0x0000000000000d1b      0x2f1 /tmp/ccdVonkR.o
+ .debug_abbrev  0x000000000000100c      0x126 /tmp/ccHWs9M2.o
+ .debug_abbrev  0x0000000000001132       0x12 /tmp/ccYCau96.o
+ .debug_abbrev  0x0000000000001144      0x25c /tmp/cccxkXCq.o
+ .debug_abbrev  0x00000000000013a0      0x135 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libm.a(libm_a-s_modf.o)
+ .debug_abbrev  0x00000000000014d5       0xd8 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libm.a(libm_a-s_fpclassify.o)
+ .debug_abbrev  0x00000000000015ad      0x173 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(adddf3.o)
+ .debug_abbrev  0x0000000000001720      0x173 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(divdf3.o)
+ .debug_abbrev  0x0000000000001893      0x14b /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(eqdf2.o)
+ .debug_abbrev  0x00000000000019de      0x15e /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(gedf2.o)
+ .debug_abbrev  0x0000000000001b3c      0x15e /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(ledf2.o)
+ .debug_abbrev  0x0000000000001c9a      0x185 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(muldf3.o)
+ .debug_abbrev  0x0000000000001e1f      0x173 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(subdf3.o)
+ .debug_abbrev  0x0000000000001f92      0x15e /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(fixdfsi.o)
+ .debug_abbrev  0x00000000000020f0      0x15e /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(fixunsdfsi.o)
+ .debug_abbrev  0x000000000000224e      0x164 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(floatunsidf.o)
+ .debug_abbrev  0x00000000000023b2      0x14c /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(divsf3.o)
+ .debug_abbrev  0x00000000000024fe      0x195 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(floatunsisf.o)
+ .debug_abbrev  0x0000000000002693      0x158 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(extendsfdf2.o)
+ .debug_abbrev  0x00000000000027eb       0xca /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x00000000000028b5       0x70 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(_clz.o)
+
+.debug_loc      0x0000000000000000    0x120c9
+ .debug_loc     0x0000000000000000     0x2ce2 /tmp/ccTeeDTX.o
+ .debug_loc     0x0000000000002ce2      0x60a /tmp/ccsclQmN.o
+ .debug_loc     0x00000000000032ec     0x1f10 /tmp/ccGiMiud.o
+ .debug_loc     0x00000000000051fc      0x95a /tmp/ccyhkGPf.o
+ .debug_loc     0x0000000000005b56     0x14d2 /tmp/ccCy1jht.o
+ .debug_loc     0x0000000000007028      0x284 /tmp/cci9QFLx.o
+ .debug_loc     0x00000000000072ac     0x39ef /tmp/ccdVonkR.o
+ .debug_loc     0x000000000000ac9b      0xa8b /tmp/ccHWs9M2.o
+ .debug_loc     0x000000000000b726      0xf32 /tmp/cccxkXCq.o
+ .debug_loc     0x000000000000c658      0x2d0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libm.a(libm_a-s_modf.o)
+ .debug_loc     0x000000000000c928       0x9a /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libm.a(libm_a-s_fpclassify.o)
+ .debug_loc     0x000000000000c9c2     0x11ec /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(adddf3.o)
+ .debug_loc     0x000000000000dbae     0x1494 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(divdf3.o)
+ .debug_loc     0x000000000000f042       0xa4 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(eqdf2.o)
+ .debug_loc     0x000000000000f0e6      0x135 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(gedf2.o)
+ .debug_loc     0x000000000000f21b      0x135 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(ledf2.o)
+ .debug_loc     0x000000000000f350      0xd56 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(muldf3.o)
+ .debug_loc     0x00000000000100a6     0x114d /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(subdf3.o)
+ .debug_loc     0x00000000000111f3      0x181 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(fixdfsi.o)
+ .debug_loc     0x0000000000011374       0xe7 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(fixunsdfsi.o)
+ .debug_loc     0x000000000001145b      0x14f /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(floatunsidf.o)
+ .debug_loc     0x00000000000115aa      0x74d /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(divsf3.o)
+ .debug_loc     0x0000000000011cf7      0x165 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(floatunsisf.o)
+ .debug_loc     0x0000000000011e5c      0x202 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(extendsfdf2.o)
+ .debug_loc     0x000000000001205e       0x6b /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(_clzsi2.o)
+
+.debug_aranges  0x0000000000000000      0x368
+ .debug_aranges
+                0x0000000000000000       0x20 /tmp/ccTeeDTX.o
+ .debug_aranges
+                0x0000000000000020       0x28 /tmp/ccsclQmN.o
+ .debug_aranges
+                0x0000000000000048       0x20 /tmp/ccGiMiud.o
+ .debug_aranges
+                0x0000000000000068       0x20 /tmp/ccyhkGPf.o
+ .debug_aranges
+                0x0000000000000088       0x20 /tmp/ccCy1jht.o
+ .debug_aranges
+                0x00000000000000a8       0x20 /tmp/cci9QFLx.o
+ .debug_aranges
+                0x00000000000000c8       0x20 /tmp/ccdVonkR.o
+ .debug_aranges
+                0x00000000000000e8       0x20 /tmp/ccHWs9M2.o
+ .debug_aranges
+                0x0000000000000108       0x28 /tmp/ccYCau96.o
+ .debug_aranges
+                0x0000000000000130       0x20 /tmp/cccxkXCq.o
+ .debug_aranges
+                0x0000000000000150       0x20 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libm.a(libm_a-s_modf.o)
+ .debug_aranges
+                0x0000000000000170       0x20 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libm.a(libm_a-s_fpclassify.o)
+ .debug_aranges
+                0x0000000000000190       0x20 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(adddf3.o)
+ .debug_aranges
+                0x00000000000001b0       0x20 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(divdf3.o)
+ .debug_aranges
+                0x00000000000001d0       0x20 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(eqdf2.o)
+ .debug_aranges
+                0x00000000000001f0       0x20 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(gedf2.o)
+ .debug_aranges
+                0x0000000000000210       0x20 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(ledf2.o)
+ .debug_aranges
+                0x0000000000000230       0x20 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(muldf3.o)
+ .debug_aranges
+                0x0000000000000250       0x20 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(subdf3.o)
+ .debug_aranges
+                0x0000000000000270       0x20 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(fixdfsi.o)
+ .debug_aranges
+                0x0000000000000290       0x20 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(fixunsdfsi.o)
+ .debug_aranges
+                0x00000000000002b0       0x20 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(floatunsidf.o)
+ .debug_aranges
+                0x00000000000002d0       0x20 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(divsf3.o)
+ .debug_aranges
+                0x00000000000002f0       0x20 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(floatunsisf.o)
+ .debug_aranges
+                0x0000000000000310       0x20 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(extendsfdf2.o)
+ .debug_aranges
+                0x0000000000000330       0x20 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(_clzsi2.o)
+ .debug_aranges
+                0x0000000000000350       0x18 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(_clz.o)
+
+.debug_ranges   0x0000000000000000     0x2240
+ .debug_ranges  0x0000000000000000      0x430 /tmp/ccTeeDTX.o
+ .debug_ranges  0x0000000000000430       0xa0 /tmp/ccsclQmN.o
+ .debug_ranges  0x00000000000004d0      0x2c8 /tmp/ccGiMiud.o
+ .debug_ranges  0x0000000000000798      0x208 /tmp/ccyhkGPf.o
+ .debug_ranges  0x00000000000009a0      0x1a8 /tmp/ccCy1jht.o
+ .debug_ranges  0x0000000000000b48       0x78 /tmp/cci9QFLx.o
+ .debug_ranges  0x0000000000000bc0      0x248 /tmp/ccdVonkR.o
+ .debug_ranges  0x0000000000000e08       0x20 /tmp/ccYCau96.o
+ .debug_ranges  0x0000000000000e28      0x8e0 /tmp/cccxkXCq.o
+ .debug_ranges  0x0000000000001708       0x30 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libm.a(libm_a-s_modf.o)
+ .debug_ranges  0x0000000000001738      0x248 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(adddf3.o)
+ .debug_ranges  0x0000000000001980      0x198 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(divdf3.o)
+ .debug_ranges  0x0000000000001b18       0x48 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(eqdf2.o)
+ .debug_ranges  0x0000000000001b60       0x50 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(gedf2.o)
+ .debug_ranges  0x0000000000001bb0       0x50 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(ledf2.o)
+ .debug_ranges  0x0000000000001c00      0x1e0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(muldf3.o)
+ .debug_ranges  0x0000000000001de0      0x250 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(subdf3.o)
+ .debug_ranges  0x0000000000002030       0x18 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(fixdfsi.o)
+ .debug_ranges  0x0000000000002048       0x20 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(fixunsdfsi.o)
+ .debug_ranges  0x0000000000002068       0x70 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(floatunsidf.o)
+ .debug_ranges  0x00000000000020d8       0xc0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(divsf3.o)
+ .debug_ranges  0x0000000000002198       0x50 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(floatunsisf.o)
+ .debug_ranges  0x00000000000021e8       0x38 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(extendsfdf2.o)
+ .debug_ranges  0x0000000000002220       0x20 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(_clzsi2.o)
+
+.debug_line     0x0000000000000000    0x227b6
+ .debug_line    0x0000000000000000     0x38cb /tmp/ccTeeDTX.o
+ .debug_line    0x00000000000038cb     0x138d /tmp/ccsclQmN.o
+ .debug_line    0x0000000000004c58     0x6e08 /tmp/ccGiMiud.o
+ .debug_line    0x000000000000ba60     0x1827 /tmp/ccyhkGPf.o
+ .debug_line    0x000000000000d287     0x24c0 /tmp/ccCy1jht.o
+ .debug_line    0x000000000000f747      0x60d /tmp/cci9QFLx.o
+ .debug_line    0x000000000000fd54     0x7c57 /tmp/ccdVonkR.o
+ .debug_line    0x00000000000179ab     0x1700 /tmp/ccHWs9M2.o
+ .debug_line    0x00000000000190ab      0x19b /tmp/ccYCau96.o
+ .debug_line    0x0000000000019246     0x2ed6 /tmp/cccxkXCq.o
+ .debug_line    0x000000000001c11c      0x3f8 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libm.a(libm_a-s_modf.o)
+ .debug_line    0x000000000001c514      0x2d0 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libm.a(libm_a-s_fpclassify.o)
+ .debug_line    0x000000000001c7e4     0x1050 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(adddf3.o)
+ .debug_line    0x000000000001d834      0xfa7 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(divdf3.o)
+ .debug_line    0x000000000001e7db      0x28d /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(eqdf2.o)
+ .debug_line    0x000000000001ea68      0x322 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(gedf2.o)
+ .debug_line    0x000000000001ed8a      0x322 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(ledf2.o)
+ .debug_line    0x000000000001f0ac      0xde2 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(muldf3.o)
+ .debug_line    0x000000000001fe8e     0x10b5 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(subdf3.o)
+ .debug_line    0x0000000000020f43      0x251 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(fixdfsi.o)
+ .debug_line    0x0000000000021194      0x1e2 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(fixunsdfsi.o)
+ .debug_line    0x0000000000021376      0x2ab /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(floatunsidf.o)
+ .debug_line    0x0000000000021621      0x881 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(divsf3.o)
+ .debug_line    0x0000000000021ea2      0x37a /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(floatunsisf.o)
+ .debug_line    0x000000000002221c      0x3e2 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(extendsfdf2.o)
+ .debug_line    0x00000000000225fe      0x122 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(_clzsi2.o)
+ .debug_line    0x0000000000022720       0x96 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(_clz.o)
+
+.debug_str      0x0000000000000000     0x1c55
+ .debug_str     0x0000000000000000      0x441 /tmp/ccTeeDTX.o
+                                        0x4b4 (size before relaxing)
+ .debug_str     0x0000000000000441      0x18e /tmp/ccsclQmN.o
+                                        0x456 (size before relaxing)
+ .debug_str     0x00000000000005cf       0xb4 /tmp/ccGiMiud.o
+                                        0x2ca (size before relaxing)
+ .debug_str     0x0000000000000683      0x127 /tmp/ccyhkGPf.o
+                                        0x31e (size before relaxing)
+ .debug_str     0x00000000000007aa       0x6a /tmp/ccCy1jht.o
+                                        0x25b (size before relaxing)
+ .debug_str     0x0000000000000814      0x12d /tmp/cci9QFLx.o
+                                        0x40d (size before relaxing)
+ .debug_str     0x0000000000000941      0x14a /tmp/ccdVonkR.o
+                                        0x322 (size before relaxing)
+ .debug_str     0x0000000000000a8b       0x62 /tmp/ccHWs9M2.o
+                                        0x226 (size before relaxing)
+ .debug_str     0x0000000000000aed       0x3a /tmp/ccYCau96.o
+                                         0x62 (size before relaxing)
+ .debug_str     0x0000000000000b27      0x159 /tmp/cccxkXCq.o
+                                        0x2fd (size before relaxing)
+ .debug_str     0x0000000000000c80      0x19e /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libm.a(libm_a-s_modf.o)
+                                        0x25f (size before relaxing)
+ .debug_str     0x0000000000000e1e       0xd5 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libm.a(libm_a-s_fpclassify.o)
+                                        0x234 (size before relaxing)
+ .debug_str     0x0000000000000ef3      0x2ee /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(adddf3.o)
+                                        0x37d (size before relaxing)
+ .debug_str     0x00000000000011e1      0x218 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(divdf3.o)
+                                        0x43f (size before relaxing)
+ .debug_str     0x00000000000013f9       0x96 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(eqdf2.o)
+                                        0x28e (size before relaxing)
+ .debug_str     0x000000000000148f       0x9b /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(gedf2.o)
+                                        0x2b2 (size before relaxing)
+ .debug_str     0x000000000000152a       0x77 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(ledf2.o)
+                                        0x2b2 (size before relaxing)
+ .debug_str     0x00000000000015a1      0x195 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(muldf3.o)
+                                        0x497 (size before relaxing)
+ .debug_str     0x0000000000001736       0x70 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(subdf3.o)
+                                        0x37d (size before relaxing)
+ .debug_str     0x00000000000017a6       0x8c /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(fixdfsi.o)
+                                        0x28b (size before relaxing)
+ .debug_str     0x0000000000001832       0x74 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(fixunsdfsi.o)
+                                        0x28a (size before relaxing)
+ .debug_str     0x00000000000018a6       0xa2 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(floatunsidf.o)
+                                        0x327 (size before relaxing)
+ .debug_str     0x0000000000001948      0x150 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(divsf3.o)
+                                        0x3aa (size before relaxing)
+ .debug_str     0x0000000000001a98       0x8a /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(floatunsisf.o)
+                                        0x308 (size before relaxing)
+ .debug_str     0x0000000000001b22       0x82 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(extendsfdf2.o)
+                                        0x2b8 (size before relaxing)
+ .debug_str     0x0000000000001ba4       0xb1 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(_clzsi2.o)
+                                        0x286 (size before relaxing)
+ .debug_str     0x0000000000001c55      0x269 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(_clz.o)
+
+.comment        0x0000000000000000       0x26
+ .comment       0x0000000000000000       0x26 /tmp/ccTeeDTX.o
+                                         0x27 (size before relaxing)
+ .comment       0x0000000000000026       0x27 /tmp/ccsclQmN.o
+ .comment       0x0000000000000026       0x27 /tmp/ccGiMiud.o
+ .comment       0x0000000000000026       0x27 /tmp/ccyhkGPf.o
+ .comment       0x0000000000000026       0x27 /tmp/ccCy1jht.o
+ .comment       0x0000000000000026       0x27 /tmp/cci9QFLx.o
+ .comment       0x0000000000000026       0x27 /tmp/ccdVonkR.o
+ .comment       0x0000000000000026       0x27 /tmp/ccHWs9M2.o
+ .comment       0x0000000000000026       0x27 /tmp/cccxkXCq.o
+ .comment       0x0000000000000026       0x27 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libm.a(libm_a-s_modf.o)
+ .comment       0x0000000000000026       0x27 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libm.a(libm_a-s_fpclassify.o)
+ .comment       0x0000000000000026       0x27 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(adddf3.o)
+ .comment       0x0000000000000026       0x27 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(divdf3.o)
+ .comment       0x0000000000000026       0x27 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(eqdf2.o)
+ .comment       0x0000000000000026       0x27 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(gedf2.o)
+ .comment       0x0000000000000026       0x27 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(ledf2.o)
+ .comment       0x0000000000000026       0x27 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(muldf3.o)
+ .comment       0x0000000000000026       0x27 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(subdf3.o)
+ .comment       0x0000000000000026       0x27 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(fixdfsi.o)
+ .comment       0x0000000000000026       0x27 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(fixunsdfsi.o)
+ .comment       0x0000000000000026       0x27 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(floatunsidf.o)
+ .comment       0x0000000000000026       0x27 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(divsf3.o)
+ .comment       0x0000000000000026       0x27 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(floatunsisf.o)
+ .comment       0x0000000000000026       0x27 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(extendsfdf2.o)
+ .comment       0x0000000000000026       0x27 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(_clzsi2.o)
+ .comment       0x0000000000000026       0x27 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(_clz.o)
+
+.riscv.attributes
+                0x0000000000000000       0x2a
+ .riscv.attributes
+                0x0000000000000000       0x21 /tmp/ccTeeDTX.o
+ .riscv.attributes
+                0x0000000000000021       0x21 /tmp/ccsclQmN.o
+ .riscv.attributes
+                0x0000000000000042       0x21 /tmp/ccGiMiud.o
+ .riscv.attributes
+                0x0000000000000063       0x21 /tmp/ccyhkGPf.o
+ .riscv.attributes
+                0x0000000000000084       0x21 /tmp/ccCy1jht.o
+ .riscv.attributes
+                0x00000000000000a5       0x25 /tmp/cci9QFLx.o
+ .riscv.attributes
+                0x00000000000000ca       0x21 /tmp/ccdVonkR.o
+ .riscv.attributes
+                0x00000000000000eb       0x21 /tmp/ccHWs9M2.o
+ .riscv.attributes
+                0x000000000000010c       0x23 /tmp/ccYCau96.o
+ .riscv.attributes
+                0x000000000000012f       0x25 /tmp/cccxkXCq.o
+ .riscv.attributes
+                0x0000000000000154       0x26 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libm.a(libm_a-s_modf.o)
+ .riscv.attributes
+                0x000000000000017a       0x26 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libm.a(libm_a-s_fpclassify.o)
+ .riscv.attributes
+                0x00000000000001a0       0x26 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(adddf3.o)
+ .riscv.attributes
+                0x00000000000001c6       0x26 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(divdf3.o)
+ .riscv.attributes
+                0x00000000000001ec       0x26 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(eqdf2.o)
+ .riscv.attributes
+                0x0000000000000212       0x26 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(gedf2.o)
+ .riscv.attributes
+                0x0000000000000238       0x26 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(ledf2.o)
+ .riscv.attributes
+                0x000000000000025e       0x26 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(muldf3.o)
+ .riscv.attributes
+                0x0000000000000284       0x26 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(subdf3.o)
+ .riscv.attributes
+                0x00000000000002aa       0x26 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(fixdfsi.o)
+ .riscv.attributes
+                0x00000000000002d0       0x26 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(fixunsdfsi.o)
+ .riscv.attributes
+                0x00000000000002f6       0x26 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(floatunsidf.o)
+ .riscv.attributes
+                0x000000000000031c       0x26 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(divsf3.o)
+ .riscv.attributes
+                0x0000000000000342       0x26 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(floatunsisf.o)
+ .riscv.attributes
+                0x0000000000000368       0x26 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(extendsfdf2.o)
+ .riscv.attributes
+                0x000000000000038e       0x26 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(_clzsi2.o)
+ .riscv.attributes
+                0x00000000000003b4       0x26 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(_clz.o)
+
+.debug_frame    0x0000000000000000      0xc28
+ .debug_frame   0x0000000000000000      0x1a0 /tmp/ccTeeDTX.o
+ .debug_frame   0x00000000000001a0       0x9c /tmp/ccsclQmN.o
+ .debug_frame   0x000000000000023c      0x23c /tmp/ccGiMiud.o
+ .debug_frame   0x0000000000000478       0x84 /tmp/ccyhkGPf.o
+ .debug_frame   0x00000000000004fc       0x70 /tmp/ccCy1jht.o
+ .debug_frame   0x000000000000056c      0x120 /tmp/cci9QFLx.o
+ .debug_frame   0x000000000000068c       0x90 /tmp/ccdVonkR.o
+ .debug_frame   0x000000000000071c       0xa0 /tmp/ccHWs9M2.o
+ .debug_frame   0x00000000000007bc      0x12c /tmp/cccxkXCq.o
+ .debug_frame   0x00000000000008e8       0x40 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libm.a(libm_a-s_modf.o)
+ .debug_frame   0x0000000000000928       0x20 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libm.a(libm_a-s_fpclassify.o)
+ .debug_frame   0x0000000000000948       0x44 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(adddf3.o)
+ .debug_frame   0x000000000000098c       0x58 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(divdf3.o)
+ .debug_frame   0x00000000000009e4       0x20 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(eqdf2.o)
+ .debug_frame   0x0000000000000a04       0x20 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(gedf2.o)
+ .debug_frame   0x0000000000000a24       0x20 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(ledf2.o)
+ .debug_frame   0x0000000000000a44       0x54 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(muldf3.o)
+ .debug_frame   0x0000000000000a98       0x44 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(subdf3.o)
+ .debug_frame   0x0000000000000adc       0x20 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(fixdfsi.o)
+ .debug_frame   0x0000000000000afc       0x20 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(fixunsdfsi.o)
+ .debug_frame   0x0000000000000b1c       0x34 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(floatunsidf.o)
+ .debug_frame   0x0000000000000b50       0x4c /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(divsf3.o)
+ .debug_frame   0x0000000000000b9c       0x34 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(floatunsisf.o)
+ .debug_frame   0x0000000000000bd0       0x38 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(extendsfdf2.o)
+ .debug_frame   0x0000000000000c08       0x20 /home/matteo/.local/bin/../lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a(_clzsi2.o)
